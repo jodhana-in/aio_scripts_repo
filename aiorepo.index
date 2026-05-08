@@ -497,6 +497,14 @@
  "md5sum": "b01062fb14a4bff7cb492bd06b3cc2a1"
 },
 {
+ "file": "trade-tracker-widget.lua",
+ "name": "Trade Tracker",
+ "description": "Portfolio PnL tracker using Yahoo Finance",
+ "type": "widget",
+ "version": "1.0.0",
+ "md5sum": "19dcdc73d4567b76a778dad4aab92db4"
+},
+{
  "file": "tvguide-ru-widget.lua",
  "name": "ТВ-Программа",
  "description": "Программа передач россиийского ТВ",
