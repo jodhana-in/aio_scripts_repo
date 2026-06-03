@@ -489,14 +489,6 @@
  "md5sum": "a5eae1efb711dc2bbc9f77ce90e5930c"
 },
 {
- "file": "todoist-app-widget.lua",
- "name": "Todoist",
- "description": "AIO wrapper for the official Todoist app widget",
- "type": "widget",
- "author": "Andey Gavrilov",
- "md5sum": "b01062fb14a4bff7cb492bd06b3cc2a1"
-},
-{
  "file": "trade-tracker-widget.lua",
  "name": "Trade Tracker",
  "description": "Portfolio PnL tracker using Yahoo Finance",
