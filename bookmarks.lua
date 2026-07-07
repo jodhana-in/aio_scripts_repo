@@ -39,15 +39,13 @@ function on_resume()
 end
 
 function on_click(index)
-  if index==1 then
-    state={action="title"}
-    dialogs:show_edit_dialog("New Bookmark","Title","")
-    return
-  end
-  local b=bookmarks[index-1]
-  if b then
-    app:open_url(b.url)
-  end
+    if index == 1 then return end
+
+    print("app =", app)
+    print("ui =", ui)
+    print("dialogs =", dialogs)
+    print("intent =", intent)
+    print("system =", system)
 end
 
 function on_long_click(index)
