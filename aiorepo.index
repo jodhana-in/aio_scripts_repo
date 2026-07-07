@@ -4,7 +4,7 @@
  "name": "Geeta",
  "description": "Geeta",
  "type": "widget",
- "author": "Ravindra Bharadwaj (rakherajot1008@gmail.com)",
+ "author": "Ravindra Bharadwaj",
  "version": "1.0",
  "foldable": "true",
  "md5sum": ""
@@ -12,10 +12,10 @@
 {
  "file": "bookmarks.lua",
  "name": "Bookmarks",
- "description": "Bookmark manager",
+ "description": "Bookmark manager with preferred browser",
  "type": "widget",
- "author": "OpenAI",
- "version": "0.1",
+ "author": "Ravindra Bhardwaj",
+ "version": "1.0",
  "foldable": "true",
  "md5sum": ""
 },
