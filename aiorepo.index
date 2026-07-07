@@ -1,5 +1,15 @@
 [
 {
+ "file": "geeta-widget.lua",
+ "name": "Geeta",
+ "description": "Geeta",
+ "type": "widget",
+ "author": "Ravindra Bharadwaj (rakherajot1008@gmail.com)",
+ "version": "1.0",
+ "foldable": "true",
+ "md5sum": ""
+},
+{
  "file": "actions-menu.lua",
  "name": "Actions menu",
  "description": "Shows aio launcher actions",
@@ -7,16 +17,6 @@
  "author": "Evgeny Zobnin",
  "version": "1.0",
  "md5sum": "227f7fef5806e4eadceca7ef3a0dd7b6"
-},
-{
- "file": "alquran-widget.lua",
- "name": "AlQuran",
- "description": "AlQuran",
- "type": "widget",
- "author": "Nuhu Rule (ncalyx@gmail.com)",
- "version": "2.3",
- "foldable": "false",
- "md5sum": "0f4897a4c4e2c26c7a8d572054fbbfdc"
 },
 {
  "file": "amdroid-buttons-app-widget.lua",
