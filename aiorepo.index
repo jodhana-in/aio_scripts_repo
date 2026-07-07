@@ -12,7 +12,7 @@
 {
  "file": "bookmarks.lua",
  "name": "Bookmarks",
- "description": "Book.arks",
+ "description": "Bookmark manager",
  "type": "widget",
  "author": "OpenAI",
  "version": "0.1",
