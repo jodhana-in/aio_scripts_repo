@@ -2,7 +2,7 @@
 -- description = "Geeta"
 -- data_source = ""
 -- type = "widget"
--- author = "Ravindra Bharadwaj (rvrajj@gmail.com)"
+-- author = "Ravindra Bharadwaj (rakherajot1008@gmail.com)"
 -- version = "1.0"
 -- foldable = "true"
 
