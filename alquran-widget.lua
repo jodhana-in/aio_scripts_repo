@@ -11,20 +11,16 @@ local verse_data = nil  -- Store the verse translation data
 
 function on_alarm()
     -- Fetch random verse with English translation
-    http:get("https://api.alquran.cloud/v1/ayah/random/en.sahih")
+    http:get("https://vedicscriptures.github.io/slok/1/1")
 end
 
 function on_network_result(result, code)
     if code >= 200 and code < 300 then
         local response = json.decode(result)
 
-        if response and response.data then
+        if response then
             -- Store verse data including Surah name, verse number, and English translation
-            verse_data = {
-                surah = response.data.surah.englishName,
-                verse_number = response.data.number,
-                translation = response.data.text  -- English translation only
-            }
+            verse_data = response
 
             display_verse()
         else
@@ -40,10 +36,10 @@ function display_verse()
     if verse_data then
         -- Prepare display lines with English translation
         local display_lines = {
-            "Verse " .. verse_data.verse_number .. ": " .. verse_data.translation
+            "Verse " .. verse_data.verse .. ": " .. verse_data.slok
         }
         local display_titles = {
-            "Surah: " .. verse_data.surah
+            "Slok: " .. verse_data.slok
         }
 
         ui:show_lines(display_lines, display_titles)
@@ -53,8 +49,8 @@ end
 function on_click()
     if verse_data then
         -- Prepare text to copy to clipboard with English translation only
-        local clipboard_text = "Verse " .. verse_data.verse_number .. ": " .. verse_data.translation ..
-            " - Surah: " .. verse_data.surah
+        local clipboard_text = "Verse " .. verse_data.verse .. ": " .. verse_data.slok ..
+            " - Slok: " .. verse_data.slok
 
         system:to_clipboard(clipboard_text)
         ui:show_text("Verse copied to clipboard!")
