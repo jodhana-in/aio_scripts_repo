@@ -10,6 +10,16 @@
  "md5sum": ""
 },
 {
+ "file": "bookmarks.lua",
+ "name": "Bookmarks",
+ "description": "Book.arks",
+ "type": "widget",
+ "author": "OpenAI",
+ "version": "0.1",
+ "foldable": "true",
+ "md5sum": ""
+},
+{
  "file": "actions-menu.lua",
  "name": "Actions menu",
  "description": "Shows aio launcher actions",
