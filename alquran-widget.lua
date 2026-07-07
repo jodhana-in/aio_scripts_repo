@@ -2,7 +2,7 @@
 -- description = "AlQuran"
 -- data_source = "https://quran.com/"
 -- type = "widget"
--- author = "Nuhu Sule (ncalyx@gmail.com)"
+-- author = "Nuhu Rule (ncalyx@gmail.com)"
 -- version = "2.3"
 -- foldable = "false"
 
